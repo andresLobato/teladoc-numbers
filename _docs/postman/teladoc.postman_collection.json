@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "36d6421d-7bcd-4c2a-b865-82cdcb2d42f3",
+		"name": "teladoc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "344682"
+	},
+	"item": [
+		{
+			"name": "sum two large numbers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"number1\": \"123456789012345678901\",\n  \"number2\": \"12345678\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9290/teladoc/basic/arithmetic/sum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9290",
+					"path": [
+						"teladoc",
+						"basic",
+						"arithmetic",
+						"sum"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
